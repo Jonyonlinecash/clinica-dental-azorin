@@ -1,0 +1,129 @@
+{
+  "theme": "LIGHT",
+  "archetype": "1 (Organic & Earthy)",
+  "vibe": "Warm, trustworthy, expert, empathetic, reducing dental anxiety",
+  "colors": {
+    "background_primary": "#FDFBF7",
+    "background_secondary": "#F3EFE9",
+    "surface": "#FFFFFF",
+    "primary": "#0F3D5E",
+    "primary_hover": "#175078",
+    "accent_warm": "#E8C8B5",
+    "text_heading": "#111827",
+    "text_body": "#4B5563",
+    "border": "#E5E0D8",
+    "success": "#10B981",
+    "whatsapp": "#25D366"
+  },
+  "typography": {
+    "headings": {
+      "family": "Playfair Display, serif",
+      "weights": ["400", "600", "700"],
+      "tracking": "tracking-tight"
+    },
+    "body": {
+      "family": "Outfit, sans-serif",
+      "weights": ["300", "400", "500"]
+    }
+  },
+  "spacing_and_layout": {
+    "philosophy": "Generous Spacing, Organic Asymmetry, High-end Editorial Feel",
+    "container_padding": "px-6 md:px-12 lg:px-24",
+    "section_gap": "py-20 md:py-32",
+    "grid_patterns": [
+      {
+        "name": "Bento Asymmetry",
+        "description": "Used for 'Why choose us' and 'Services'. grid-cols-1 md:grid-cols-8 lg:grid-cols-12 with wide gaps (gap-8)."
+      }
+    ]
+  },
+  "surfaces_and_shadows": {
+    "glass_header": "backdrop-blur-xl bg-[#FDFBF7]/80 border-b border-[#E5E0D8]",
+    "cards": "bg-white border border-[#E5E0D8] rounded-2xl shadow-[0_8px_30px_rgb(0,0,0,0.04)]",
+    "buttons": {
+      "primary": "bg-[#0F3D5E] text-white rounded-full px-8 py-4 font-medium hover:bg-[#175078] transition-colors",
+      "secondary": "border border-[#0F3D5E] text-[#0F3D5E] rounded-full px-8 py-4 font-medium hover:bg-[#0F3D5E] hover:text-white transition-colors"
+    }
+  },
+  "components_strategy": {
+    "marketing_sections": "Use raw HTML + Tailwind for structural creativity, overlapping images, and generous padding. No strict Shadcn cards for the main marketing sections.",
+    "icons": "Use lucide-react for UI icons. Keep them soft and warm (e.g., using the accent_warm or primary colors).",
+    "interactions": "Smooth hover lifts (-translate-y-1) and subtle shadow increments. Fade-up entrances for text blocks."
+  },
+  "sections_and_content": [
+    {
+      "id": "hero",
+      "layout": "Split asymmetric or side-by-side. Left side: Heavy typography, Right side: Large organic-shaped image or rounded rectangle.",
+      "content": {
+        "h1": "Tu sonrisa merece expertos que no se rinden.",
+        "subtitle": "Especialistas en casos complejos con escáner intraoral y un trato humano que te hará olvidar el miedo.",
+        "cta_primary": "Pide tu Cita Ahora",
+        "cta_secondary": "Ver Casos de Éxito",
+        "trust_badge": "⭐ 4.8/5 estrellas en Google | Más de 20 años cuidando Burgos."
+      }
+    },
+    {
+      "id": "social_proof",
+      "layout": "Grid of testimonial cards. Minimalist, high contrast text.",
+      "content": "Testimonials from Raquel González and Teodoro Campos highlighting trust and lack of pain."
+    },
+    {
+      "id": "why_us",
+      "layout": "Bento Grid. Mixing images and text blocks.",
+      "content": "Donde otros se rinden / Adiós al pánico dental (sedación consciente) / Precisión Digital (escáner intraoral) / Equipo humano."
+    },
+    {
+      "id": "services",
+      "layout": "Categorized cards by patient need, avoiding heavy medical jargon.",
+      "content": "Recuperar dientes / Sonrisa perfecta / Salud y mantenimiento / Eliminar dolor."
+    },
+    {
+      "id": "team_authority",
+      "layout": "Editorial layout, large portraits, overlapping text 'Nos importas tú'.",
+      "content": "Team with names: Alberto, Jennifer, Teresa."
+    },
+    {
+      "id": "footer",
+      "layout": "Dark background (primary color #0F3D5E) with light text for contrast.",
+      "content": "C. Azorín, 1, 09005 Burgos. Abiertos hasta las 22:00. Tel: 947 64 95 46. Mapa Google."
+    }
+  ],
+  "media": {
+    "images": [
+      {
+        "category": "hero_background",
+        "url": "https://images.pexels.com/photos/4269276/pexels-photo-4269276.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "description": "Modern warm dental clinic interior for hero section"
+      },
+      {
+        "category": "patient_care",
+        "url": "https://images.unsplash.com/photo-1758653500342-5476c8ec3da6?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDQ2Mzl8MHwxfHNlYXJjaHwxfHxkZW50aXN0JTIwY29tZm9ydGluZyUyMHBhdGllbnQlMjBzbWlsaW5nfGVufDB8fHx8MTc3NzM3NDYxNHww&ixlib=rb-4.1.0&q=85",
+        "description": "Dentist examining/comforting patient"
+      },
+      {
+        "category": "team_alberto",
+        "url": "https://images.unsplash.com/photo-1756699279298-c89cdef354ab?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA2MjJ8MHwxfHNlYXJjaHwyfHxwcm9mZXNzaW9uYWwlMjBkZW50aXN0JTIwcG9ydHJhaXQlMjBzbWlsaW5nfGVufDB8fHx8MTc3NzM3NDYxM3ww&ixlib=rb-4.1.0&q=85",
+        "description": "Smiling male dentist portrait (Alberto)"
+      },
+      {
+        "category": "team_jennifer",
+        "url": "https://images.unsplash.com/photo-1729162128021-f37dca3ff30d?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA2MjJ8MHwxfHNlYXJjaHwxfHxwcm9mZXNzaW9uYWwlMjBkZW50aXN0JTIwcG9ydHJhaXQlMjBzbWlsaW5nfGVufDB8fHx8MTc3NzM3NDYxM3ww&ixlib=rb-4.1.0&q=85",
+        "description": "Smiling female dentist portrait (Jennifer)"
+      },
+      {
+        "category": "team_teresa",
+        "url": "https://images.unsplash.com/photo-1674775372058-c4c8813c6611?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA2MjJ8MHwxfHNlYXJjaHwzfHxwcm9mZXNzaW9uYWwlMjBkZW50aXN0JTIwcG9ydHJhaXQlMjBzbWlsaW5nfGVufDB8fHx8MTc3NzM3NDYxM3ww&ixlib=rb-4.1.0&q=85",
+        "description": "Smiling female dentist portrait (Teresa - fallback image)"
+      }
+    ]
+  },
+  "specific_instructions_for_main_agent": [
+    "Install and use 'Playfair Display' and 'Outfit' fonts via Google Fonts in index.html.",
+    "Implement a sticky/floating WhatsApp button fixed to the bottom right with WhatsApp brand color (#25D366).",
+    "Ensure the layout feels 'Organic & Earthy' (Archetype 1) - use warm beige/off-white backgrounds, not stark white everywhere. Absolutely NO purple or cold hospital blues.",
+    "Include 'data-testid' attributes on all CTA buttons, links, and forms.",
+    "Use lucide-react for icons.",
+    "Make sure all CTA buttons directly link to the phone number or WhatsApp (e.g., href='tel:+34947649546' or href='https://wa.me/34947649546').",
+    "Build a mobile-first responsive layout, as most users will be searching 'dentista Burgos' on their phones."
+  ]
+}
