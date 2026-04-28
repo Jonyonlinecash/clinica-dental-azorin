@@ -13,7 +13,7 @@ export default function WhatsAppFloat() {
   if (!show) return null;
 
   return (
-    <div className="fixed bottom-5 right-5 z-50 flex flex-col items-end gap-3" data-testid="whatsapp-float">
+    <div className="fixed bottom-5 left-5 md:bottom-6 md:left-6 z-50 flex flex-col items-start gap-3" data-testid="whatsapp-float">
       {open && (
         <div
           className="bg-white border border-[#E5E0D8] rounded-3xl shadow-[0_24px_48px_-20px_rgba(15,61,94,0.25)] p-5 w-[300px] animate-[fadeUp_0.3s_ease-out]"
